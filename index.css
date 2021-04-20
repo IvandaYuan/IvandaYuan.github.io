@@ -1,0 +1,75 @@
+body {
+	background-color: lightblue;
+	margin-bottom: : 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+h1 {
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	background: linear-gradient(to right, #d937db 0%, #f2b527 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+h2 {
+	text-align: left;
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#bio:hover {
+	color: #f23f3f;
+	transition: 1s;
+}
+
+#pengalaman:hover {
+	color: #10cc1d;
+	transition: 1s;	
+}
+
+hr {
+	border: 2px dashed #bb5ee6;
+}
+
+table, th, td {
+	padding: 2px;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th,td {
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+}
+
+table {
+	width: 100%;
+	background-color: white;
+}
+
+th {
+	background-color: #bb5ee6;
+}
+
+#smakbo {
+	float: right;
+	width: 2.5cm;
+	height: 2.5cm;
+}
+
+#ivan {
+	width: 150px;
+	height: 200px;
+	border: 2px solid black;
+}
+
+p {
+	font-family: "Times New Roman", Times, serif;
+	text-align: justify;
+	text-indent: 0.5in;
+	font-size: 18px;
+}

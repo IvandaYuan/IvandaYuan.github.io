@@ -1,11 +1,15 @@
 body {
-	background-color: #d1dac0;
 	margin: 0;
 }
 
-.header {
-	padding: 40px;
-	background-color: #363333;
+.atas {
+	padding: 60px;
+	background-color: #1f2833;
+}
+
+.bawah {
+	background-color: #1f2833;
+	padding: 1px;
 }
 
 h1 {
@@ -25,43 +29,61 @@ h2 {
 	margin-right: 8px;
 }
 
+h5 {
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	background: linear-gradient(to right, #8dc3a7 0%, #358873 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#bio {
+	width: 8%;
+}
+
 #bio:hover {
-	color: #f23f3f;
+	color: aqua;
 	transition: 1s;
+}
+
+#pengalaman {
+	width: 12%;
 }
 
 #pengalaman:hover {
 	color: #10cc1d;
-	transition: 1s;	
+	transition: 1s;
 }
 
-table, th, td {
+.tabelbio table,
+th,
+td {
 	padding: 2px;
 	border: 1px solid black;
 	border-collapse: collapse;
 }
 
-th,td {
+.tabelbio th,
+td {
 	text-align: center;
 	font-family: "Times New Roman", Times, serif;
 	font-size: 18px;
+	border: 1px solid black;
 }
 
-table {
+.tabelbio table {
 	width: 99%;
 	background-color: white;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-th {
-	background-color: #cfa15b;
+.tabelbio th {
+	background-color: #66fcf1;
 }
 
-#smakbo {
-	float: right;
-	width: 2.5cm;
-	height: 2.5cm;
+.tabelbio tr {
+	border: 1px solid black;
 }
 
 #ivan {

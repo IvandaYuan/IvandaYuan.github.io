@@ -10,7 +10,7 @@ body {
 .bawah {
 	background-color: #1f2833;
 	padding: 1px;
-	position: fixed;
+	position: relative;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -103,4 +103,23 @@ p {
 	font-size: 18px;
 	margin-left: 8px;
 	margin-right: 8px;
+}
+
+#gal {
+	text-align: center;
+}
+
+#gal:hover {
+	color: turquoise;
+	transition: 1s;
+}
+
+.gambarr {
+	background-color: white;
+	width: 90%;
+	border: 2px solid black;
+}
+
+.gambarr img {
+	border: 1px solid black;
 }
